@@ -1,12 +1,27 @@
 # ChimeDig
 This Repository contains the Code debug points.Learned to Create a Custom Video Calling App Using Amazon Chime SDK.
 
+##### Custom Video Call Using Chime SDK.
+
+
+<table>
+  <tr>
+    <td>Dialogs Preview</td>
+     <td>Snackbar Preview</td>
+   </tr>
+  <tr>
+    <td><img src="user_video_off.png" width=270 height=480></td>
+    <td><img src="user_video_on.jpeg" width=270 height=480></td>
+  </tr>
+ </table>
+
+
+
 ### Code Debug
 
 ##### 1.Show Video Thumbnail upon user video turn on and Off of the video (Without updating the tile)
 - onVideoTile Added , add the isVideoOnParam in the VideoCollectionTile data class.
-``
-
+```
 
 
         var isFirstTime:Boolean = false
